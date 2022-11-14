@@ -10,6 +10,9 @@ The solution is to run:
 
 ```bash
 yarn ts-node --skipIgnore fails
+
+# or
+TS_NODE_SKIP_IGNORE=true yarn ts-node fail
 ```
 
 ## The Issue

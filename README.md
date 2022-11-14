@@ -2,6 +2,16 @@
 
 This package shows a difference in behavior with the [import declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) for typescript when the path of the typescript file does and does not contain a directory named `node_modules`.
 
+## Resolution
+
+Keeping this repository here for posterity. See [issuecomment](https://github.com/nodejs/node/issues/45453#issuecomment-1313121137) and [expected behavior](https://github.com/TypeStrong/ts-node/blob/ba950599c6bfcba32b514b33d254094b278b744e/website/docs/scope.md#skipping-node_modules).
+
+The solution is to run:
+
+```bash
+yarn ts-node --skipIgnore fails
+```
+
 ## The Issue
 
 Given a typescript file:

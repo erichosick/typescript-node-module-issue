@@ -1,0 +1,360 @@
+// NODE_DEBUG=module yarn ts-node fails
+// typescript-node-module-issue git:(main) NODE_DEBUG=module yarn ts-node fails
+// change Users/erichosick to ...
+
+
+MODULE 17274: looking for "/opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js" in ["/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17274: load "/opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js" for module "."
+MODULE 17274: Module._load REQUEST /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/../lib/v8-compile-cache.js parent: .
+MODULE 17274: looking for "/opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/../lib/v8-compile-cache.js" in ["/opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/node_modules","/opt/homebrew/Cellar/yarn/1.22.19/libexec/node_modules","/opt/homebrew/Cellar/yarn/1.22.19/node_modules","/opt/homebrew/Cellar/yarn/node_modules","/opt/homebrew/Cellar/node_modules","/opt/homebrew/node_modules","/opt/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17274: load "/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/v8-compile-cache.js" for module "/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/v8-compile-cache.js"
+MODULE 17274: Module._load REQUEST module parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/v8-compile-cache.js
+MODULE 17274: load native module module
+MODULE 17274: Module._load REQUEST crypto parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/v8-compile-cache.js
+MODULE 17274: load native module crypto
+MODULE 17274: Module._load REQUEST fs parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/v8-compile-cache.js
+MODULE 17274: load native module fs
+MODULE 17274: Module._load REQUEST path parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/v8-compile-cache.js
+MODULE 17274: load native module path
+MODULE 17274: Module._load REQUEST vm parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/v8-compile-cache.js
+MODULE 17274: load native module vm
+MODULE 17274: Module._load REQUEST os parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/v8-compile-cache.js
+MODULE 17274: load native module os
+MODULE 17274: Module._load REQUEST /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/../lib/cli parent: .
+MODULE 17274: looking for "/opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/../lib/cli" in ["/opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/node_modules","/opt/homebrew/Cellar/yarn/1.22.19/libexec/node_modules","/opt/homebrew/Cellar/yarn/1.22.19/node_modules","/opt/homebrew/Cellar/yarn/node_modules","/opt/homebrew/Cellar/node_modules","/opt/homebrew/node_modules","/opt/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17274: load "/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js" for module "/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js"
+MODULE 17274: Module._load REQUEST path parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module path
+MODULE 17274: Module._load REQUEST os parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module os
+MODULE 17274: Module._load REQUEST fs parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module fs
+MODULE 17274: Module._load REQUEST buffer parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module buffer
+MODULE 17274: Module._load REQUEST crypto parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module crypto
+MODULE 17274: Module._load REQUEST stream parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module stream
+MODULE 17274: Module._load REQUEST util parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module util
+MODULE 17274: Module._load REQUEST assert parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module assert
+MODULE 17274: Module._load REQUEST events parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module events
+MODULE 17274: Module._load REQUEST child_process parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module child_process
+MODULE 17274: Module._load REQUEST zlib parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module zlib
+MODULE 17274: Module._load REQUEST constants parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module constants
+MODULE 17274: Module._load REQUEST string_decoder parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module string_decoder
+MODULE 17274: Module._load REQUEST url parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module url
+MODULE 17274: Module._load REQUEST readline parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module readline
+MODULE 17274: Module._load REQUEST tty parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module tty
+MODULE 17274: Module._load REQUEST dns parent: /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js
+MODULE 17274: load native module dns
+yarn run v1.22.19
+$ /.../Projects/personal/typescript-node-module-issue/node_modules/.bin/ts-node fails
+MODULE 17277: looking for "/.../Projects/personal/typescript-node-module-issue/node_modules/.bin/ts-node" in ["/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/bin.js" for module "."
+MODULE 17277: Module._load REQUEST path parent: .
+MODULE 17277: load native module path
+MODULE 17277: Module._load REQUEST util parent: .
+MODULE 17277: load native module util
+MODULE 17277: Module._load REQUEST module parent: .
+MODULE 17277: load native module module
+MODULE 17277: Module._load REQUEST ./util parent: .
+MODULE 17277: RELATIVE: requested: ./util from parent.id .
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/util.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/util.js"
+MODULE 17277: Module._load REQUEST module parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/util.js
+MODULE 17277: load native module module
+MODULE 17277: Module._load REQUEST yn parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/util.js
+MODULE 17277: looking for "yn" in ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules","/.../Projects/personal/node_modules","/.../Projects/node_modules","/.../node_modules","/Users/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/yn/index.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/yn/index.js"
+MODULE 17277: Module._load REQUEST ./lenient parent: /.../Projects/personal/typescript-node-module-issue/node_modules/yn/index.js
+MODULE 17277: RELATIVE: requested: ./lenient from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/yn/index.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/yn"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/yn/lenient.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/yn/lenient.js"
+MODULE 17277: Module._load REQUEST path parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/util.js
+MODULE 17277: load native module path
+MODULE 17277: Module._load REQUEST ./repl parent: .
+MODULE 17277: RELATIVE: requested: ./repl from parent.id .
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/repl.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/repl.js"
+MODULE 17277: Module._load REQUEST os parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/repl.js
+MODULE 17277: load native module os
+MODULE 17277: Module._load REQUEST path parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/repl.js
+MODULE 17277: load native module path
+MODULE 17277: Module._load REQUEST repl parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/repl.js
+MODULE 17277: load native module repl
+MODULE 17277: Module._load REQUEST vm parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/repl.js
+MODULE 17277: load native module vm
+MODULE 17277: Module._load REQUEST ./index parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/repl.js
+MODULE 17277: RELATIVE: requested: ./index from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/repl.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js"
+MODULE 17277: Module._load REQUEST path parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: load native module path
+MODULE 17277: Module._load REQUEST module parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: load native module module
+MODULE 17277: Module._load REQUEST util parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: load native module util
+MODULE 17277: Module._load REQUEST url parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: load native module url
+MODULE 17277: Module._load REQUEST make-error parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: looking for "make-error" in ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules","/.../Projects/personal/node_modules","/.../Projects/node_modules","/.../node_modules","/Users/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/make-error/index.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/make-error/index.js"
+MODULE 17277: Module._load REQUEST ./util parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: Module._load REQUEST ./configuration parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: RELATIVE: requested: ./configuration from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/configuration.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/configuration.js"
+MODULE 17277: Module._load REQUEST path parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/configuration.js
+MODULE 17277: load native module path
+MODULE 17277: Module._load REQUEST ./index parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/configuration.js
+MODULE 17277: Module._load REQUEST ./ts-internals parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/configuration.js
+MODULE 17277: RELATIVE: requested: ./ts-internals from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/configuration.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/ts-internals.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/ts-internals.js"
+MODULE 17277: Module._load REQUEST path parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/ts-internals.js
+MODULE 17277: load native module path
+MODULE 17277: Module._load REQUEST ./util parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/ts-internals.js
+MODULE 17277: Module._load REQUEST ./tsconfigs parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/configuration.js
+MODULE 17277: RELATIVE: requested: ./tsconfigs from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/configuration.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/tsconfigs.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/tsconfigs.js"
+MODULE 17277: Module._load REQUEST ./util parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/configuration.js
+MODULE 17277: Module._load REQUEST ./module-type-classifier parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: RELATIVE: requested: ./module-type-classifier from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/module-type-classifier.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/module-type-classifier.js"
+MODULE 17277: Module._load REQUEST ./ts-internals parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/module-type-classifier.js
+MODULE 17277: Module._load REQUEST ./util parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/module-type-classifier.js
+MODULE 17277: Module._load REQUEST ./resolver-functions parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: RELATIVE: requested: ./resolver-functions from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/resolver-functions.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/resolver-functions.js"
+MODULE 17277: Module._load REQUEST path parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/resolver-functions.js
+MODULE 17277: load native module path
+MODULE 17277: Module._load REQUEST ./cjs-resolve-hooks parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: RELATIVE: requested: ./cjs-resolve-hooks from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/cjs-resolve-hooks.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/cjs-resolve-hooks.js"
+MODULE 17277: Module._load REQUEST ./node-module-type-classifier parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: RELATIVE: requested: ./node-module-type-classifier from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/node-module-type-classifier.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/node-module-type-classifier.js"
+MODULE 17277: Module._load REQUEST ../dist-raw/node-internal-modules-cjs-loader parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/node-module-type-classifier.js
+MODULE 17277: RELATIVE: requested: ../dist-raw/node-internal-modules-cjs-loader from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/node-module-type-classifier.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js"
+MODULE 17277: Module._load REQUEST ./node-primordials parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: RELATIVE: requested: ./node-primordials from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-primordials.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-primordials.js"
+MODULE 17277: Module._load REQUEST ./node-nativemodule parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: RELATIVE: requested: ./node-nativemodule from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-nativemodule.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-nativemodule.js"
+MODULE 17277: Module._load REQUEST module parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-nativemodule.js
+MODULE 17277: load native module module
+MODULE 17277: Module._load REQUEST url parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: load native module url
+MODULE 17277: Module._load REQUEST fs parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: load native module fs
+MODULE 17277: Module._load REQUEST path parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: load native module path
+MODULE 17277: Module._load REQUEST ./node-internalBinding-fs parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: RELATIVE: requested: ./node-internalBinding-fs from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internalBinding-fs.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internalBinding-fs.js"
+MODULE 17277: Module._load REQUEST fs parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internalBinding-fs.js
+MODULE 17277: load native module fs
+MODULE 17277: Module._load REQUEST ../dist/util parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internalBinding-fs.js
+MODULE 17277: RELATIVE: requested: ../dist/util from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internalBinding-fs.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw"]
+MODULE 17277: Module._load REQUEST ./node-internal-modules-package_json_reader parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: RELATIVE: requested: ./node-internal-modules-package_json_reader from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-package_json_reader.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-package_json_reader.js"
+MODULE 17277: Module._load REQUEST ./node-primordials parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-package_json_reader.js
+MODULE 17277: Module._load REQUEST ./node-internalBinding-fs parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-package_json_reader.js
+MODULE 17277: Module._load REQUEST url parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-package_json_reader.js
+MODULE 17277: load native module url
+MODULE 17277: Module._load REQUEST path parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-package_json_reader.js
+MODULE 17277: load native module path
+MODULE 17277: Module._load REQUEST ./node-internal-modules-cjs-helpers parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: RELATIVE: requested: ./node-internal-modules-cjs-helpers from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-helpers.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-helpers.js"
+MODULE 17277: Module._load REQUEST ./node-primordials parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-helpers.js
+MODULE 17277: Module._load REQUEST ./node-options parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-helpers.js
+MODULE 17277: RELATIVE: requested: ./node-options from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-helpers.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-options.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-options.js"
+MODULE 17277: Module._load REQUEST arg parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-options.js
+MODULE 17277: looking for "arg" in ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules","/.../Projects/personal/node_modules","/.../Projects/node_modules","/.../node_modules","/Users/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/arg/index.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/arg/index.js"
+MODULE 17277: Module._load REQUEST arg parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-options.js
+MODULE 17277: Module._load REQUEST ./node-options parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: Module._load REQUEST ../dist/util parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: RELATIVE: requested: ../dist/util from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw"]
+MODULE 17277: Module._load REQUEST ./node-internal-errors parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: RELATIVE: requested: ./node-internal-errors from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-errors.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-errors.js"
+MODULE 17277: Module._load REQUEST path parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-errors.js
+MODULE 17277: load native module path
+MODULE 17277: Module._load REQUEST ./node-internal-errors parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: Module._load REQUEST ./node-internal-constants parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: RELATIVE: requested: ./node-internal-constants from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-constants.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-constants.js"
+MODULE 17277: Module._load REQUEST module parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist-raw/node-internal-modules-cjs-loader.js
+MODULE 17277: load native module module
+MODULE 17277: Module._load REQUEST ./file-extensions parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: RELATIVE: requested: ./file-extensions from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/file-extensions.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/file-extensions.js"
+MODULE 17277: Module._load REQUEST ./util parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/file-extensions.js
+MODULE 17277: Module._load REQUEST ./ts-transpile-module parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: RELATIVE: requested: ./ts-transpile-module from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/ts-transpile-module.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/ts-transpile-module.js"
+MODULE 17277: Module._load REQUEST ./repl parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: Module._load REQUEST ../dist-raw/node-internal-modules-cjs-loader parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: Module._load REQUEST ../package.json parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: RELATIVE: requested: ../package.json from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/package.json" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/package.json"
+MODULE 17277: Module._load REQUEST fs parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/repl.js
+MODULE 17277: load native module fs
+MODULE 17277: Module._load REQUEST console parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/repl.js
+MODULE 17277: load native module console
+MODULE 17277: Module._load REQUEST assert parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/repl.js
+MODULE 17277: load native module assert
+MODULE 17277: Module._load REQUEST module parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/repl.js
+MODULE 17277: load native module module
+MODULE 17277: Module._load REQUEST ./index parent: .
+MODULE 17277: Module._load REQUEST ../dist-raw/node-internal-modules-cjs-helpers parent: .
+MODULE 17277: RELATIVE: requested: ../dist-raw/node-internal-modules-cjs-helpers from parent.id .
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: Module._load REQUEST ./child/spawn-child parent: .
+MODULE 17277: RELATIVE: requested: ./child/spawn-child from parent.id .
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/child/spawn-child.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/child/spawn-child.js"
+MODULE 17277: Module._load REQUEST child_process parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/child/spawn-child.js
+MODULE 17277: load native module child_process
+MODULE 17277: Module._load REQUEST url parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/child/spawn-child.js
+MODULE 17277: load native module url
+MODULE 17277: Module._load REQUEST ../util parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/child/spawn-child.js
+MODULE 17277: RELATIVE: requested: ../util from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/child/spawn-child.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/child"]
+MODULE 17277: Module._load REQUEST ./argv-payload parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/child/spawn-child.js
+MODULE 17277: RELATIVE: requested: ./argv-payload from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/child/spawn-child.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/child"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/child/argv-payload.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/child/argv-payload.js"
+MODULE 17277: Module._load REQUEST zlib parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/child/argv-payload.js
+MODULE 17277: load native module zlib
+MODULE 17277: Module._load REQUEST ./configuration parent: .
+MODULE 17277: Module._load REQUEST arg parent: .
+MODULE 17277: looking for "arg" in ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules","/.../Projects/personal/node_modules","/.../Projects/node_modules","/.../node_modules","/Users/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: RELATIVE: requested: ./fails from parent.id /.../Projects/personal/typescript-node-module-issue/imaginaryUncacheableRequireResolveScript
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue"]
+MODULE 17277: looking for "typescript" in ["/.../Projects/personal/typescript-node-module-issue/node_modules","/.../Projects/personal/node_modules","/.../Projects/node_modules","/.../node_modules","/Users/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: looking for "typescript" in ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules","/.../Projects/personal/node_modules","/.../Projects/node_modules","/.../node_modules","/Users/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: Module._load REQUEST v8-compile-cache-lib parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/util.js
+MODULE 17277: looking for "v8-compile-cache-lib" in ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules","/.../Projects/personal/node_modules","/.../Projects/node_modules","/.../node_modules","/Users/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/v8-compile-cache-lib/v8-compile-cache.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/v8-compile-cache-lib/v8-compile-cache.js"
+MODULE 17277: Module._load REQUEST module parent: /.../Projects/personal/typescript-node-module-issue/node_modules/v8-compile-cache-lib/v8-compile-cache.js
+MODULE 17277: load native module module
+MODULE 17277: Module._load REQUEST crypto parent: /.../Projects/personal/typescript-node-module-issue/node_modules/v8-compile-cache-lib/v8-compile-cache.js
+MODULE 17277: load native module crypto
+MODULE 17277: Module._load REQUEST fs parent: /.../Projects/personal/typescript-node-module-issue/node_modules/v8-compile-cache-lib/v8-compile-cache.js
+MODULE 17277: load native module fs
+MODULE 17277: Module._load REQUEST path parent: /.../Projects/personal/typescript-node-module-issue/node_modules/v8-compile-cache-lib/v8-compile-cache.js
+MODULE 17277: load native module path
+MODULE 17277: Module._load REQUEST vm parent: /.../Projects/personal/typescript-node-module-issue/node_modules/v8-compile-cache-lib/v8-compile-cache.js
+MODULE 17277: load native module vm
+MODULE 17277: Module._load REQUEST os parent: /.../Projects/personal/typescript-node-module-issue/node_modules/v8-compile-cache-lib/v8-compile-cache.js
+MODULE 17277: load native module os
+MODULE 17277: Module._load REQUEST /.../Projects/personal/typescript-node-module-issue/node_modules/typescript/lib/typescript.js parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/configuration.js
+MODULE 17277: looking for "/.../Projects/personal/typescript-node-module-issue/node_modules/typescript/lib/typescript.js" in ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules","/.../Projects/personal/node_modules","/.../Projects/node_modules","/.../node_modules","/Users/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/typescript/lib/typescript.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/typescript/lib/typescript.js"
+MODULE 17277: Module._load REQUEST perf_hooks parent: /.../Projects/personal/typescript-node-module-issue/node_modules/typescript/lib/typescript.js
+MODULE 17277: load native module perf_hooks
+MODULE 17277: Module._load REQUEST ./node_modules/@microsoft/typescript-etw parent: /.../Projects/personal/typescript-node-module-issue/node_modules/typescript/lib/typescript.js
+MODULE 17277: RELATIVE: requested: ./node_modules/@microsoft/typescript-etw from parent.id /.../Projects/personal/typescript-node-module-issue/node_modules/typescript/lib/typescript.js
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue/node_modules/typescript/lib"]
+MODULE 17277: Module._load REQUEST fs parent: /.../Projects/personal/typescript-node-module-issue/node_modules/typescript/lib/typescript.js
+MODULE 17277: load native module fs
+MODULE 17277: Module._load REQUEST path parent: /.../Projects/personal/typescript-node-module-issue/node_modules/typescript/lib/typescript.js
+MODULE 17277: load native module path
+MODULE 17277: Module._load REQUEST os parent: /.../Projects/personal/typescript-node-module-issue/node_modules/typescript/lib/typescript.js
+MODULE 17277: load native module os
+MODULE 17277: Module._load REQUEST crypto parent: /.../Projects/personal/typescript-node-module-issue/node_modules/typescript/lib/typescript.js
+MODULE 17277: load native module crypto
+MODULE 17277: Module._load REQUEST buffer parent: /.../Projects/personal/typescript-node-module-issue/node_modules/typescript/lib/typescript.js
+MODULE 17277: load native module buffer
+MODULE 17277: Module._load REQUEST @tsconfig/node16/tsconfig.json parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/tsconfigs.js
+MODULE 17277: looking for "@tsconfig/node16/tsconfig.json" in ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules","/.../Projects/personal/node_modules","/.../Projects/node_modules","/.../node_modules","/Users/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/@tsconfig/node16/tsconfig.json" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/@tsconfig/node16/tsconfig.json"
+MODULE 17277: Module._load REQUEST v8-compile-cache-lib parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/util.js
+MODULE 17277: Module._load REQUEST /.../Projects/personal/typescript-node-module-issue/node_modules/typescript/lib/typescript.js parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/configuration.js
+MODULE 17277: Module._load REQUEST @cspotcode/source-map-support parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/index.js
+MODULE 17277: looking for "@cspotcode/source-map-support" in ["/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules","/.../Projects/personal/node_modules","/.../Projects/node_modules","/.../node_modules","/Users/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/@cspotcode/source-map-support/source-map-support.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/@cspotcode/source-map-support/source-map-support.js"
+MODULE 17277: Module._load REQUEST @jridgewell/trace-mapping parent: /.../Projects/personal/typescript-node-module-issue/node_modules/@cspotcode/source-map-support/source-map-support.js
+MODULE 17277: looking for "@jridgewell/trace-mapping" in ["/.../Projects/personal/typescript-node-module-issue/node_modules/@cspotcode/source-map-support/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules/@cspotcode/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules","/.../Projects/personal/node_modules","/.../Projects/node_modules","/.../node_modules","/Users/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/@jridgewell/trace-mapping/dist/trace-mapping.umd.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/@jridgewell/trace-mapping/dist/trace-mapping.umd.js"
+MODULE 17277: Module._load REQUEST @jridgewell/sourcemap-codec parent: /.../Projects/personal/typescript-node-module-issue/node_modules/@jridgewell/trace-mapping/dist/trace-mapping.umd.js
+MODULE 17277: looking for "@jridgewell/sourcemap-codec" in ["/.../Projects/personal/typescript-node-module-issue/node_modules/@jridgewell/trace-mapping/dist/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules/@jridgewell/trace-mapping/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules/@jridgewell/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules","/.../Projects/personal/node_modules","/.../Projects/node_modules","/.../node_modules","/Users/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.umd.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.umd.js"
+MODULE 17277: Module._load REQUEST @jridgewell/resolve-uri parent: /.../Projects/personal/typescript-node-module-issue/node_modules/@jridgewell/trace-mapping/dist/trace-mapping.umd.js
+MODULE 17277: looking for "@jridgewell/resolve-uri" in ["/.../Projects/personal/typescript-node-module-issue/node_modules/@jridgewell/trace-mapping/dist/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules/@jridgewell/trace-mapping/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules/@jridgewell/node_modules","/.../Projects/personal/typescript-node-module-issue/node_modules","/.../Projects/personal/node_modules","/.../Projects/node_modules","/.../node_modules","/Users/node_modules","/node_modules","/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/node_modules/@jridgewell/resolve-uri/dist/resolve-uri.umd.js" for module "/.../Projects/personal/typescript-node-module-issue/node_modules/@jridgewell/resolve-uri/dist/resolve-uri.umd.js"
+MODULE 17277: Module._load REQUEST path parent: /.../Projects/personal/typescript-node-module-issue/node_modules/@cspotcode/source-map-support/source-map-support.js
+MODULE 17277: load native module path
+MODULE 17277: Module._load REQUEST url parent: /.../Projects/personal/typescript-node-module-issue/node_modules/@cspotcode/source-map-support/source-map-support.js
+MODULE 17277: load native module url
+MODULE 17277: Module._load REQUEST util parent: /.../Projects/personal/typescript-node-module-issue/node_modules/@cspotcode/source-map-support/source-map-support.js
+MODULE 17277: load native module util
+MODULE 17277: Module._load REQUEST fs parent: /.../Projects/personal/typescript-node-module-issue/node_modules/@cspotcode/source-map-support/source-map-support.js
+MODULE 17277: load native module fs
+MODULE 17277: Module._load REQUEST module parent: /.../Projects/personal/typescript-node-module-issue/node_modules/@cspotcode/source-map-support/source-map-support.js
+MODULE 17277: load native module module
+MODULE 17277: Module._load REQUEST worker_threads parent: /.../Projects/personal/typescript-node-module-issue/node_modules/@cspotcode/source-map-support/source-map-support.js
+MODULE 17277: load native module worker_threads
+MODULE 17277: Module._load REQUEST module parent: /.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/dist/cjs-resolve-hooks.js
+MODULE 17277: load native module module
+MODULE 17277: looking for "/.../Projects/personal/typescript-node-module-issue/fails" in ["/.../.node_modules","/.../.node_libraries","/.../.nvm/versions/node/v16.18.0/lib/node"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/fails.ts" for module "."
+MODULE 17277: Module._load REQUEST ./sub-folder/node_modules/add parent: .
+MODULE 17277: RELATIVE: requested: ./sub-folder/node_modules/add from parent.id .
+MODULE 17277: looking for ["/.../Projects/personal/typescript-node-module-issue"]
+MODULE 17277: load "/.../Projects/personal/typescript-node-module-issue/sub-folder/node_modules/add.ts" for module "/.../Projects/personal/typescript-node-module-issue/sub-folder/node_modules/add.ts"
+/.../Projects/personal/typescript-node-module-issue/sub-folder/node_modules/add.ts:1
+const add = (left: number, right: number): number => {
+                 ^
+
+SyntaxError: Unexpected token ':'
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1084:15)
+    at Module._compile (node:internal/modules/cjs/loader:1119:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Object.require.extensions.<computed> [as .ts] (/.../Projects/personal/typescript-node-module-issue/node_modules/ts-node/src/index.ts:1608:43)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/.../Projects/personal/typescript-node-module-issue/fails.ts:1:1)
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+➜  typescript-node-module-issue git:(main) code .
+➜  typescript-node-module-issue git:(main) 
